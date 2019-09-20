@@ -18,7 +18,14 @@ main {
     background-image: linear-gradient(to right, rgb(0, 81, 255), white, rgb(0, 81, 255));
 }
 
-.main-info {
+.main-info::after {
+    content: "";
+    display: block;
+    height: 2px;
+    background-image: linear-gradient(to right, white, blue);
+}
+
+.main-info-flex {
     display: flex;
     align-items: center;
 }
@@ -36,11 +43,6 @@ h2 {
 
 .name {
     font-style: italic;
-}
-
-.line {
-    height: 2px;
-    background-image: linear-gradient(to right, white, blue);
 }
 
 ol {
