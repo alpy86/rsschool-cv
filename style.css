@@ -11,7 +11,6 @@ h1 {
     text-align: center;
     letter-spacing: 10px;
     background-image: linear-gradient(to right top, rgb(0, 81, 255), white);
-    
 }
 
 main {
@@ -64,6 +63,5 @@ pre {
     margin-left: 50px;
     font-size: 16px;
     line-height: 20px;
-    
 }
 
