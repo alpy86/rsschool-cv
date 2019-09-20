@@ -48,8 +48,9 @@ ol {
 }
 
 li {
-    line-height: 30px;
     padding-bottom: 5px;
+    line-height: 30px;
+    
 }
 
 a {
@@ -59,8 +60,8 @@ a {
 pre {
     margin: 0;
     margin-left: 50px;
-    text-align: initial;
-    line-height: 20px;
     font-size: 16px;
+    line-height: 20px;
+    
 }
 
