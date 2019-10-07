@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Resume</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Resume</h1>
+        </header>
+        <main>
+            <div class="main-info">
+                <div class="main-info-flex">
+                    <img src="img/avatar.jpg" alt="avatar" width="220">
+                    <h2 class="name">Alexandre Pylaev</h2>
+                </div>
+            </div>
+            <ol>
+                <li><b>Contacts:</b> mobile +375 29 771 42 74, Viber, Telegram, alpy86@tut.by</li>
+                <li><b>My goal:</b> to participate in development of new programs simplifying
+                    and improving human use of opportunities</li>
+                <li><b>Skills:</b> novice level of JavaScript, HTML, CSS, Git</li>
+                <li class="example"><b>Code example:</b>
+                    <pre>
+                        function createFunctions(n) {
+                            var callbacks = [];
+                            var v = 0;
+                            var item = function() {
+                                return v++;
+                            };
+                            for (var i=0; i&lt;n; i++) {
+                                callbacks.push(item);
+                            }
+                            return callbacks;
+                        }   
+                    </pre>
+                </li>
+                <li><b>Achievement:</b> developed technical task and implemented
+                     Automated minibus (fixed-route-taxi) system  management,
+                     information for ordinary user
+                     about the work of minibuses in Minsk is available 
+                    <a href="http://gusts.minsk.by/routetaxi">here</a></li>
+                <li><b>Education:</b> higher, Belarusian National Technical University, engineer;
+                    online courses CodeAcademy, HTML Academy, CodeWars</li>
+                <li><b>English:</b> studied at the university for 5 years, approximate level A2+</li>
+            </ol>
+        </main>
+    </body>
+</html>
